@@ -1,0 +1,14 @@
+
+
+
+<%= form_with :model => @place do |form| %>
+  <p>
+    <%= form.label "name", "Where did I go?" %>
+    <%= form.text_field "name" %>
+  </p>
+  <%= form.submit %>
+<% end %>
+
+
+
+<p><a href="/places">Go back to homepage</a></p>
